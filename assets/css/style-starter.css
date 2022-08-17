@@ -19393,6 +19393,18 @@ span.video-play-icon:hover {
   .banner-info p {
     font-size: 15px;
   }
+  .banner-right {
+    background: url(../images/banner400px.jpg) no-repeat;
+  background-position: center;
+  object-fit: contain;
+  background-size: cover;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+    
+  
+  }
+  
 }
 
 /* //banner */

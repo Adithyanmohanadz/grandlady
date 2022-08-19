@@ -19222,7 +19222,7 @@ h3.title-style span {
 }
 
 .banner-right {
-  background: url(../images/banner.jpg) no-repeat;
+  background: url(../images/banner3.jpg) no-repeat;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -19233,6 +19233,12 @@ h3.title-style span {
   min-height: 100vh;
   border-radius: 1000px 0 0 1000px;
   outline: 21px solid rgb(255 255 255 / 14%);
+
+  background-position: center;
+  object-fit: contain;
+  display: flex;
+  justify-items: center;
+  align-items: center;
 
 }
 
@@ -19394,7 +19400,7 @@ span.video-play-icon:hover {
     font-size: 15px;
   }
   .banner-right {
-    background: url(../images/banner400px.jpg) no-repeat;
+    background: url(../images/banner400px1.jpg) no-repeat;
   background-position: center;
   object-fit: contain;
   background-size: cover;

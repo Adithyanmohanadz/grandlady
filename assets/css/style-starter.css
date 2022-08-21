@@ -18967,6 +18967,14 @@ header.nav-fixed {
 .nav-fixed .navbar .navbar-brand {
   color: var(--heading-color);
 }
+/* navbar image  */
+.navbar-brand .nav-log{
+  display: none;
+}
+.nav-fixed .navbar .navbar-brand .nav-log {
+  display: inline;
+}
+/* //navbar image  */
 
 /* //serach */
 @media only screen and (max-width: 1199px) {
@@ -19239,6 +19247,7 @@ h3.title-style span {
   display: flex;
   justify-items: center;
   align-items: center;
+  
 
 }
 
@@ -19401,16 +19410,23 @@ span.video-play-icon:hover {
   }
   .banner-right {
     background: url(../images/banner400px1.jpg) no-repeat;
+    position: relative;
   background-position: center;
   object-fit: contain;
   background-size: cover;
-  display: flex;
+  display: none;
   justify-items: center;
   align-items: center;
-    
   
+   
   }
-  
+  .banner-left{
+    /* margin-top: 500px; */
+    
+  }
+  .banner-wrap{
+    min-height: 90vh;
+  }
 }
 
 /* //banner */
@@ -19890,7 +19906,15 @@ h4.title-head a {
 /* stats */
 .w3_stats {
   background: url(../images/map.png), var(--gradient-color), no-repeat, center;
+  height: ;
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: contain;
+  object-fit: contain;
+  
+  display: flex;
+  justify-items: center;
+  align-items: center;
 }
 
 .counter i {

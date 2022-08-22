@@ -19406,7 +19406,7 @@ span.video-play-icon:hover {
   }
 
   .shape {
-    bottom: 0;
+    bottom: -1px;
   }
 }
 

@@ -18970,8 +18970,8 @@ header.nav-fixed {
 /* navbar image  */
 .navbar-brand .nav-log-dark{
   /* display: none; */
-  height: 70px;
-  width: 140px;
+  height: 90px;
+  width: 183px;
 
 }
 .navbar-brand .nav-log-white{
@@ -18979,8 +18979,8 @@ header.nav-fixed {
 }
 .nav-fixed .navbar .navbar-brand .nav-log-white {
   display: inline;
-  height: 70px;
-  width: 140px;
+  height: 90px;
+  width: 183px;
 }
 .nav-fixed .navbar .navbar-brand .nav-log-dark {
   display: none;
@@ -19241,7 +19241,7 @@ h3.title-style span {
 }
 
 .banner-right {
-  background: url(../images/banner3.jpg) no-repeat;
+  background: url(../images/banner\ pos.jpg) no-repeat;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;

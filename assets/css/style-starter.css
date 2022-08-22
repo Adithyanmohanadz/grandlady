@@ -18968,11 +18968,22 @@ header.nav-fixed {
   color: var(--heading-color);
 }
 /* navbar image  */
-.navbar-brand .nav-log{
+.navbar-brand .nav-log-dark{
+  /* display: none; */
+  height: 70px;
+  width: 140px;
+
+}
+.navbar-brand .nav-log-white{
   display: none;
 }
-.nav-fixed .navbar .navbar-brand .nav-log {
+.nav-fixed .navbar .navbar-brand .nav-log-white {
   display: inline;
+  height: 70px;
+  width: 140px;
+}
+.nav-fixed .navbar .navbar-brand .nav-log-dark {
+  display: none;
 }
 /* //navbar image  */
 

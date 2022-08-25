@@ -620,6 +620,7 @@ progress {
 .img-fluid {
   max-width: 100%;
   height: auto;
+  border-radius: 40px;
 }
 
 .img-thumbnail {
@@ -5014,6 +5015,10 @@ fieldset:disabled .btn {
 .card-img-top,
 .card-img-bottom {
   width: 100%;
+  
+}
+.card-img img{
+  border-radius: 10px;
 }
 
 .card-img,
@@ -18925,7 +18930,7 @@ header.nav-fixed {
   height: 80px;
   border-bottom: none;
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.05);
-  z-index: 10 !important;
+  z-index: 11 !important;
   /* for z-index:10 to display gallery popup */
 }
 
@@ -19243,7 +19248,7 @@ h3.title-style span {
 }
 
 .banner-right {
-  /* background: url(../images/banner\ pos.jpg) no-repeat;
+  background: url(../images/banner\ pos.jpg) no-repeat;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -19259,7 +19264,7 @@ h3.title-style span {
   object-fit: contain;
   display: flex;
   justify-items: center;
-  align-items: center; */
+  align-items: center;
 
 }
 
@@ -19472,7 +19477,7 @@ span.video-play-icon:hover {
   }
 
   .banner-right {
-    display: none;
+    /* display: none; */
     margin-bottom: 2em;
   }
 

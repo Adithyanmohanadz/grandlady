@@ -19487,7 +19487,7 @@ span.video-play-icon:hover {
   }
 }
 
-@media (max-width:500px) {
+@media (max-width:400px) {
   .banner-info h3 {
     font-size: 40px;
     line-height: 50px;

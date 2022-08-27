@@ -18864,10 +18864,9 @@ div#small-dialog iframe {
 
 .navbar-expand-lg .navbar-nav .nav-link {
   padding: 0;
-  font-size: 16px;
+  font-size: 15px;
   color: #fff;
   font-weight: 600;
-  border-bottom: 1px solid transparent;
   padding: 0 8px;
 }
 
@@ -19228,6 +19227,7 @@ h3.title-style span {
   bottom: -21px;
   left: 0;
   width: 100%;
+  
 }
 
 .shape svg {
@@ -19236,6 +19236,7 @@ h3.title-style span {
 
 .shape path {
   fill: var(--bg-color);
+  
 }
 
 .banner-left {
@@ -19396,15 +19397,15 @@ span.video-play-icon:hover {
 }
 
 .banner-info h3 {
-  font-size: 60px;
-  line-height: 70px;
+  font-size: 45px;
+  line-height: 60px;
   font-weight: bold;
   color: #fff;
 }
 
 .banner-info p {
   color: #fff;
-  font-size: 18px;
+  font-size: 15px;
   text-transform: uppercase;
 }
 

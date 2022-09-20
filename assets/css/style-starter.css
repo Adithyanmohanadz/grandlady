@@ -11790,7 +11790,7 @@ fieldset:disabled .btn {
 /* css style */
 :root {
   --primary-color: #327ab3;
-  --secondary-color: #ff9068;
+  --secondary-color: #8a8a8a;
   --font-color: #363636;
   --bg-color: #fff;
   --heading-color: #060606;
@@ -21312,7 +21312,7 @@ p.counter {
     transform: translateY(-2000px); } }
 /*//stars*/
 
-/* adoutsection */
+/* adoutsection  three block*/
 .w3l-content-4 {
   background-color: var(--bg-lightgrey);
 }
@@ -21381,7 +21381,7 @@ p.counter {
     padding-right: 0;
   }
 }
-/* //adoutsection */
+/* //adoutsection  three block */
 
 /*--------------------------------------------------------------
 # Why Us

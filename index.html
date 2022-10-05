@@ -16,6 +16,10 @@ Author URL: http://w3layouts.com
     <link rel="stylesheet" href="assets/css/style-starter.css">
     <link rel="stylesheet" href="assets/css/cdnav.css">
     <link rel="icon" href="assets/images/gl logo1.png" type="image/gif" sizes="16x16">
+
+    <!-- textanimetion -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
 </head>
 
 <body>
@@ -30,8 +34,8 @@ Author URL: http://w3layouts.com
 				<li><a href="#stats"><span class="w3label">Blog</span></a></li>
 				<li><a href="#contact"><span class="w3label">Contact</span></a></li>
 			</ul>
-		</nav> -->
-	</div>	
+		</nav> 
+	</div>	-->
     <!-- header -->
     <header id="site-header" class="fixed-top">
         <div class="container">
@@ -98,7 +102,7 @@ Author URL: http://w3layouts.com
                 <div class="container pt-md-0 pt-5">
                     <div class="banner-info ps-xxl-5 ps-xl-0 ps-5 ms-lg-5 py-md-0 py-5">
                         <p class="mb-1">Business Solution!</p>
-                        <h3>Discover the world of Perfection and Trust </h3>
+                        <h3 class="ml3">Discover the world of Perfection and Trust </h3>
                         <a class="btn btn-style btn-style-2 mt-sm-5 mt-4" href="about.html">Get Started</a>
                     </div>
                 </div>
@@ -851,6 +855,31 @@ Author URL: http://w3layouts.com
      </script>
      <!-- //adz gl script for tesimonials carousel slider -->
      <!-- //adz gl owl carousel -->
+
+
+     <!-- textanimetion -->
+     <script>
+        // Wrap every letter in a span
+            var textWrapper = document.querySelector('.ml3');
+            textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+            anime.timeline({loop: false})
+            .add({
+                targets: '.ml3 .letter',
+                opacity: [0,1],
+                easing: "easeInOutQuad",
+                duration: 2250,
+                delay: (el, i) => 150 * (i+1)
+            })
+            // .add({
+            //     targets: '.ml3',
+            //     opacity: 0,
+            //     duration: 1000,
+            //     easing: "easeOutExpo",
+            //     delay: 1000
+            // });
+     </script>
+     <!-- //textanimetion -->
 
     <!-- bootstrap -->
     <script src="assets/js/bootstrap.min.js"></script>

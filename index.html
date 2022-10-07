@@ -45,9 +45,28 @@ Author URL: http://w3layouts.com
                     <img class="nav-log-dark" src="assets/images/full logo inline for dark background 1.png" alt="">
                     <!-- Grand<span>lady</span> -->
                 </a>
+
+
+                <!-- <div id="nav-button" class="nav-btn not-active" >
+                    <span class="nav-span"></span>
+                    <span class="nav-span"></span>
+                    <span class="nav-span"></span>
+                </div> -->
+
+
+                
+
                 <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
                     aria-label="Toggle navigation">
+                    
+                        <!-- <div id="nav-button" class="nav-btn not-active" >
+                            <span class="nav-span"></span>
+                            <span class="nav-span"></span>
+                            <span class="nav-span"></span>
+                        </div> -->
+                    
+                    
                     <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
                     <span class="navbar-toggler-icon fa icon-close fa-times"></span>
                 </button>
@@ -842,6 +861,24 @@ Author URL: http://w3layouts.com
     <script src="assets/js/bootstrap.min.js"></script>
     <!-- //bootstrap -->
     <!-- //Js scripts -->
+
+<!-- adithya nav bar  -->
+    <script>
+        var btn = document.getElementById(nav-button)
+
+        btn.addEventListener('click',function(){
+            if(
+                this.classList.contains('active')
+            ){
+                this.classList.remove('active')
+                this.classList.add('not-active')
+            }else{
+                this.classList.add('active')
+                this.classList.remove('not-active')
+            }
+        })
+    </script>
+
 </body>
 
 </html>

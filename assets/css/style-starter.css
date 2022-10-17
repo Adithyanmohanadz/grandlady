@@ -20997,8 +20997,25 @@ h4.inner-text-title {
 
 .clients-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr ;
   grid-gap: 25px; }
+
+  .clientss-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 25px; }
+
+    @media (max-width: 997px) {
+      .clientss-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
+        grid-gap: 23px; }
+    }
+
+    @media (max-width: 768px) {
+      .clientss-grid {
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-gap: 20px; }
+    }
 
 @media (max-width: 480px) {
   .w3l-grids-3 ul.cont-4 li {
@@ -21012,12 +21029,18 @@ h4.inner-text-title {
 @media (max-width: 415px) {
   .clients-grid {
     grid-gap: 15px; }
+
+    .clientss-grid {
+      grid-gap: 15px; }
+    
   .client-grids .icon {
     padding: 10px; } }
 
 @media (max-width: 384px) {
   .clients-grid {
-    grid-template-columns: 1fr 1fr; } }
+    grid-template-columns: 1fr 1fr; }
+    .clientss-grid {
+      grid-template-columns: 1fr 1fr; } }
 
 .w3l-bottom-grids-6 .area-box {
   padding: 40px 30px;

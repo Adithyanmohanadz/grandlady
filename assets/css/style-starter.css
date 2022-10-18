@@ -21374,7 +21374,7 @@ p.counter {
   background-color: var(--bg-color);
 }
 .w3l-content-4 .cont-ser-right-grids:hover{
-  background: var(--bs-dark);
+  background: linear-gradient(to left, #005aa7, #cfcdb6);
   transition: .3s;
   box-shadow: 0 25px 98px 0 rgba(0, 0, 0, 0.1);
   transform: translateY(-0.25rem);

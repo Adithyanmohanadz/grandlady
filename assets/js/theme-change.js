@@ -19,4 +19,14 @@ function switchTheme(e) {
     }    
 }
 
+function changeImage(){
+    var image = document.getElementById("myImage");
+    if(currentTheme === 'dark'){
+        image.scr = "assets/images/full logo inline for white background 1.png";
+    }
+    else{
+        image.scr = "assets/images/full logo inline for dark background 1.png";
+    }
+}
+
 toggleSwitch.addEventListener('change', switchTheme, false);

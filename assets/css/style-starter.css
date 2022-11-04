@@ -7121,6 +7121,11 @@ fieldset:disabled .btn {
   left: 0;
   z-index: 1030;
 }
+.indx-header{
+  background-color: rgba(192,192,192,0.3);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
 
 .fixed-bottom {
   position: fixed;
@@ -19985,7 +19990,7 @@ p.count-text {
 
 /* inner banner */
 .inner-banner {
-  background: url(../images/inner-banner.jpg) no-repeat top;
+  background: url(../images/inn\ banner\ 4.jpg) no-repeat top;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;

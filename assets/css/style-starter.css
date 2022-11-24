@@ -4698,7 +4698,7 @@ fieldset:disabled .btn {
   .navbar-expand-lg .navbar-collapse {
     display: flex !important;
     flex-basis: auto;
-    padding-right: 250px;
+    /* padding-right: 250px; */
   }
 
   .navbar-expand-lg .navbar-toggler {
@@ -11810,7 +11810,7 @@ fieldset:disabled .btn {
 
 [data-theme="dark"] {
   --primary-color: #327ab3;
-  --secondary-color: #ff9068;
+  --secondary-color: #8a8a8a;
   --font-color: #b7b7b7;
   --bg-color: #19211e;
   --heading-color: #fdfffc;
@@ -19105,6 +19105,7 @@ header.nav-fixed {
   }
 
   .cont-ser-position {
+    display: none;
     position: absolute;
     right: 30px;
     top: 18px;

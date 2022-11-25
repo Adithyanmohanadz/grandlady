@@ -100,7 +100,7 @@ function heroSlider() {
         handle: null,
         idle: true,
         activeIndex: -1,
-        interval: 5000
+        interval: 8000
     };
 
     const setHeight = function (holder, items) {
@@ -207,7 +207,7 @@ function heroSlider() {
 
             if (slider.idle) {
                 const direction = delta < 0 ? 'next' : 'prev';
-                stopAutoplay();
+                stopAutoplay(zzzz);
                 changeSlide(direction);
             }
         }

@@ -20188,7 +20188,7 @@ h4.inner-text-title {
   text-transform: capitalize; }
 
 .team-main .overlay-team {
-  background-color: rgba(20, 20, 20, 0.7);
+  /* background-color: rgba(20, 20, 20, 0.7); */
   position: absolute;
   top: 0;
   width: 100%;
@@ -20236,7 +20236,8 @@ h4.inner-text-title {
   line-height: 42px;
   text-align: center;
   transition: all .3s ease 0s;
-  background: rgba(157, 157, 157, 0.5); }
+  background: var(--primary-color);
+ }
 
 .team-main .team-details .socials span {
   color: #fff; }
@@ -20997,8 +20998,9 @@ h4.inner-text-title {
 
 .clients-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr ;
-  grid-gap: 25px; }
+  grid-template-columns: 1fr 1fr 1fr 1fr  ;
+  grid-gap: 20px;
+  justify-content: center; }
 
   .clientss-grid {
     display: grid;
@@ -21394,6 +21396,9 @@ p.counter {
     height: 400px;
     overflow: hidden;
     margin: 20px 0 40px;
+  }
+  .v1{
+    display: none;
   }
 }
 

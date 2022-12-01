@@ -155,7 +155,7 @@ function heroSlider() {
 
         const activeImageItem = slider.main.querySelector('.active');
         activeImageItem.addEventListener('transitionend', waitForIdle, {
-            once: true
+            once: false
         });
     }
 
@@ -166,7 +166,7 @@ function heroSlider() {
 
     const waitForIdle = function () {
         !slider.autoplay && autoplay(false); //restart
-        slider.idle = true;
+        slider.idle = false
     }
 
     const wheelControl = function () {
@@ -228,7 +228,7 @@ function heroSlider() {
     const loadingAnimation = function () {
         slider.hero.classList.add('ready');
         slider.current.addEventListener('transitionend', start, {
-            once: true
+            once: false
         });
     }
 

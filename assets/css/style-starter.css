@@ -21034,7 +21034,7 @@ h4.inner-text-title {
     display: grid;
     grid-template-columns: 40px 1fr; }
   .grids-3 ul.cont-4 li span.fa {
-    display: table; } }
+    display: block; } }
 
 @media (max-width: 415px) {
   .clients-grid {
@@ -22002,6 +22002,18 @@ h3.title {
   margin: auto;
   width: 80px;
   border-radius: 10px;
+}
+
+.partnerp{
+  padding-left: 38px; 
+  margin-top: -26px;
+}
+
+@media (max-width:481px) {
+  .partnerp{
+    padding-left: 0; 
+    margin-top: 0;
+  }
 }
 
 a.blog-desc {

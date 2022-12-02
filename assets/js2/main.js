@@ -155,7 +155,7 @@ function heroSlider() {
 
         const activeImageItem = slider.main.querySelector('.active');
         activeImageItem.addEventListener('transitionend', waitForIdle, {
-            once: false
+            once: true
         });
     }
 
@@ -165,7 +165,7 @@ function heroSlider() {
     }
 
     const waitForIdle = function () {
-        !slider.autoplay && autoplay(false); //restart
+        !slider.autoplay && autoplay(false); //restart adz top scroll 
         slider.idle = false
     }
 
@@ -207,7 +207,7 @@ function heroSlider() {
 
             if (slider.idle) {
                 const direction = delta < 0 ? 'next' : 'prev';
-                stopAutoplay(zzzz);
+                stopAutoplay();
                 changeSlide(direction);
             }
         }
@@ -228,7 +228,7 @@ function heroSlider() {
     const loadingAnimation = function () {
         slider.hero.classList.add('ready');
         slider.current.addEventListener('transitionend', start, {
-            once: false
+            once: true
         });
     }
 

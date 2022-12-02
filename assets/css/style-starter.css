@@ -4510,7 +4510,7 @@ fieldset:disabled .btn {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding-top: 0.5rem;
+  /* padding-top: 0.5rem; */
   padding-bottom: 0.5rem;
 }
 
@@ -18907,8 +18907,15 @@ a.dropdown-item.active {
   transform: translateX(-50%) rotateZ(45deg);
   position: absolute;
   top: -7px;
-  left: 49%;
+  left: 25%;
   z-index: 1001;
+}
+@media (max-width:991px) {
+  .navbar-expand-lg .navbar-nav .dropdown-menu:before {
+    
+    left: 50%;
+    
+  }
 }
 
 header {
@@ -18999,7 +19006,7 @@ header.nav-fixed {
 @media only screen and (max-width: 991px) {
   header.nav-fixed {
     height: auto;
-    padding: 14px 0;
+    /* padding: 14px 0; */
   }
 
   header {
@@ -21995,4 +22002,13 @@ h3.title {
   margin: auto;
   width: 80px;
   border-radius: 10px;
+}
+
+a.blog-desc {
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 700;
+  display: inline-block;
+  color: var(--heading-color);
+  margin-bottom: 0px;
 }
